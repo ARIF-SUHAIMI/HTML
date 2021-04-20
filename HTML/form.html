@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            MY FORM
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h2 id="first">A simple form</h2>
+        <form action="submit.html" method="GET">
+            <fieldset>
+                <legend>All about you</legend><br/>
+                <label>A text box input : </label>
+                <input type="text" id="Tinput" name="Tname"><br/><br/>
+                <label>A password input : </label>
+                <input type="password" id="Tpwd" name="Tpass">
+                <br/><br/><br/>
+                <input type="checkbox" id="uncheck1" name="KotakUn">
+                <label for="uncheck1">An uncheck checkbox</label><br/><br/>
+                <input type="checkbox" id="check1" name="KotakC">
+                <label for="check1">A checked box</label>
+                <br/><br/>
+                <input type="radio" id="Oradio" name="RadioData" value="Oradio">
+                <label for="radio1">One radio button</label><br/>
+                <input type="radio" id="Tradio" name="RadioData" value="Tradio">
+                <label for="Tradio">Two radio button</label><br/>
+                <input type="radio" id="Thradio" name="RadioData" value="Thradio">
+                <label for="Thradio">Three radio button</label>
+                <br/><br/>
+                <label for="Drop1">A drop-down list: </label>
+                <select name="dropOption" id="DO">
+                    <option value="Default">The selected option</option>
+                    <option value="Option1">Pilihan Pertama</option>
+                    <option value="Option2">Pilihan Kedua</option>
+                    <option value="Option3">Pilihan Ketiga</option>
+                </select>
+                <br/><br>
+                <input type="submit" value="Submit" onclick="alert('Form Submitted')">
+            </fieldset>
+        </form>
+    </body>
+</html>
